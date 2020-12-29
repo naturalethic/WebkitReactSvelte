@@ -1,0 +1,32 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "standard-jsx",
+    "standard-react"
+  ],
+  "globals": {
+    "fetch": "readonly"
+  },
+  "rules": {
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-new-func": "off",
+    "quote-props": "off",
+    "dot-notation": "off",
+    "no-return-await": "off",
+    "require-await": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "_"
+      }
+    ]
+  }
+}
